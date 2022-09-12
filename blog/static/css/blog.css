@@ -1,0 +1,31 @@
+body {
+    padding-left: 20px;
+    padding-right: 20px;
+    font-family:'Montserrat';
+}
+
+.header {
+    color: white;
+    background-color: #1e5f5f;
+    text-align: center;
+    margin-top: 10px;
+    padding-top: 1px;
+    padding-bottom: 3px;
+}
+
+h2 a {
+    color: #138037;
+}
+
+.date {
+    text-align: right;
+    color:deeppink;
+}
+
+.post {
+    color: red;
+}
+
+.text-in-details {
+    color:darkgoldenrod;
+}
