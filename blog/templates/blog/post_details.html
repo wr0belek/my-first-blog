@@ -10,6 +10,8 @@
             </div>
         {% endif %}
         <h2>{{ post.title }}</h2>
-        <div class="text-in-details">{{ post.text|linebreaksbr }}</div>
+        <div class="text_in_details">
+            {{ post.text|linebreaksbr }}
+        </div>
     </div>
 {% endblock %}
