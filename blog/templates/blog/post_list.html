@@ -4,7 +4,7 @@
 {% block content %}
     {%for post in posts%}
         <div>
-            <h2><a href = "{% url 'post_detail' pk=post.pk %}">{{post.title}}</a></h2>
+            <h2><a href = "{% url 'post_detail' pk=post.pk %}" style = "text-decoration: none; color: #034727;">{{post.title}}</a></h2>
             <p>{{post.text|linebreaksbr}}</p>
             <div class = "date">
                 <i>{{post.published_date}}</i>

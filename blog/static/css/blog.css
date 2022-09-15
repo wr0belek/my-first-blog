@@ -16,11 +16,13 @@ h1 a {
     color: white;
 }
 
-.date {
+a {
+    text-decoration: none;
+}
+.date_l {
     text-align: right;
 }
 
 .text_in_details {
     font-size: medium;
 }
-
